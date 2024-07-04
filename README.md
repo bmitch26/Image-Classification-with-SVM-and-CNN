@@ -1,8 +1,4 @@
-# Image Classification with CNN and SVM
-The following is an ongoing project with data collected from Kaggle, with additional fine-tuning to be added for completion. The task to be solved at hand is as follows: I am a worker for a social media platform, and my task is to create a solution  using deep learning to discern whether a post is holiday-related in an effort to better monetize the platform.
+# Supervised, Unsupervised, and Deep Learning Comparative Analysis for Image Classification
+In the following hypothetical scenario, I am software engineer for a social media platform and my task is to experiment with different algorithm techniques to find the optimal solution for image classification. Given the following six categories: Christmas_Tree, Jacket, Candle, Airplane, Snowman, and Miscellaneous, I need to classify the images in the dataset based on these categories.
 
-Task
-Given the following six categories: Miscellaneous, Christmas_Tree, Jacket, Candle, Airplane, Snowman. I need required to classify the images in the dataset based on these categories.
-
-To Solve
-I will approach this task by utilizing Convolutional Neural Networks(CNN) and Support Vector Machines(SVM). Using these two in tandem can be an effective method for feature extraction(CNN) for resulting classifications (SVM).
+I approach this task by utilizing Convolutional Neural Networks (CNN), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN) with evaluation metrics such as precision, recall, and F1. Results show that greatest accuracy results from neural networks although it has the greatest training time and requires a large training set, and is the recommended solution for large datasets. If a small dataset is used however, SVM is my recommended approach.
